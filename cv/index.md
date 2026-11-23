@@ -6,7 +6,7 @@
   }
 </style>
 
-# <center>TAKESHI ASAHI KODAMA, PhD**</center>
+# <center>TAKESHI ASAHI KODAMA, PhD</center>d
 
 <p><center><strong>Senior Software, Cloud &amp; Modelling Engineer · AI &amp; Computer Vision · Technical Leader</strong></center></p>
 
