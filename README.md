@@ -3,3 +3,4 @@
 Different group of repositories by topic:
 
 * [Data Science](data_science/index.md)
+* [Deep Learning](deep_learning/index.md)
