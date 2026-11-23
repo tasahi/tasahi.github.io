@@ -1,17 +1,19 @@
+<style>
+  h2 {
+      background-color: #f0f2f5;
+      padding: 10px 15px;
+      border-radius: 4px;
+  }
+</style>
+
+# <center>**TAKESHI ASAHI KODAMA, PhD**</center>
+
+<p><center><strong>Senior Software, Cloud &amp; Modelling Engineer · AI &amp; Computer Vision · Technical Leader</strong></center></p>
+
+<center>LinkedIn: <a href="https://linkedin.com/in/takeshiasahi">linkedin.com/in/takeshiasahi</a> | GitHub: <a href="https://github.com/tasahi">github.com/tasahi</a>
+ | <a href="https://scholar.google.com/citations?user=OUjTa7UAAAAJ">Google Scholar</a></center>
+
 <div align="center">
-
-<h1>TAKESHI ASAHI KODAMA</h1>
-
-<p><strong>Senior Software, Cloud &amp; Modelling Engineer · AI &amp; Computer Vision · Technical Leader</strong></p>
-
-<p>
-Liverpool, UK · <a href="mailto:tasahi@gmail.com">tasahi@gmail.com</a> ·
-<a href="https://linkedin.com/in/takeshiasahi">linkedin.com/in/takeshiasahi</a> ·
-<a href="https://github.com/tasahi">github.com/tasahi</a> ·
-<a href="https://scholar.google.com/citations?user=OUjTa7UAAAAJ">Google Scholar</a><br>
-Full Right to Work in the UK (no sponsorship required)
-</p>
-
 <p>
 <a href="#summary">Summary</a> ·
 <a href="#skills">Skills</a> ·
