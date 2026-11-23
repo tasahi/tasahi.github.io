@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Takeshi Asahi Kodama – Extended CV</title>
+<meta name="description" content="Extended CV of Takeshi Asahi Kodama: senior software, cloud, modelling and AI engineer. Full career history, projects and publications.">
+<style>
+  :root { --ink:#1d2430; --muted:#5b6575; --accent:#1F3A5F; --line:#d9dee6; --bg:#ffffff; --soft:#f4f6f9; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, "Segoe UI", Calibri, Arial, sans-serif; color:var(--ink); background:var(--soft); }
+  main { max-width:880px; margin:32px auto; background:var(--bg); padding:48px 56px; border:1px solid var(--line); border-radius:6px; }
+  header { text-align:center; border-bottom:2px solid var(--accent); padding-bottom:18px; margin-bottom:8px; }
+  h1 { margin:0; font-size:30px; letter-spacing:.04em; color:var(--accent); }
+  .tagline { font-weight:600; margin:6px 0 4px; }
+  .contact { color:var(--muted); font-size:14.5px; }
+  .contact a { color:var(--accent); }
+  nav { display:flex; flex-wrap:wrap; gap:6px 16px; justify-content:center; font-size:14px; margin:14px 0 6px; }
+  nav a { color:var(--accent); text-decoration:none; }
+  h2 { font-size:15px; text-transform:uppercase; letter-spacing:.08em; color:var(--accent); border-bottom:1px solid var(--line); padding-bottom:4px; margin:34px 0 12px; }
+  .role { margin:18px 0; }
+  .role-head { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  .role-head strong { font-size:16.5px; }
+  .dates { color:var(--muted); font-size:14.5px; white-space:nowrap; }
+  .org { color:var(--muted); font-size:14.5px; }
+  .stack { font-size:14px; color:var(--muted); margin-top:4px; }
+  .stack b { color:var(--ink); }
+  .project { padding:12px 0; border-bottom:1px dashed var(--line); }
+  .project:last-child { border-bottom:none; }
+  .project h3 { font-size:16px; margin:0; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  .project .team { font-size:14px; color:var(--muted); margin:2px 0 4px; }
+  .project p { margin:0; }
+  ul { padding-left:20px; margin:6px 0; }
+  li { margin:3px 0; }
+  .pubs li { font-size:14.5px; }
+  .two { display:grid; grid-template-columns:1fr 1fr; gap:4px 24px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:36px; }
+  @media (max-width:640px){ main{ padding:28px 20px; margin:0; border-radius:0; } .two{ grid-template-columns:1fr; } }
+  @media print { body{ background:#fff; } main{ border:none; margin:0; padding:0; } nav{ display:none; } .project, .role{ break-inside:avoid; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>TAKESHI ASAHI KODAMA</h1>
+  <div class="tagline">Senior Software, Cloud &amp; Modelling Engineer · AI &amp; Computer Vision · Technical Leader</div>
+  <div class="contact">
+    Liverpool, UK · <a href="mailto:tasahi@gmail.com">tasahi@gmail.com</a> ·
+    <a href="https://linkedin.com/in/takeshiasahi">linkedin.com/in/takeshiasahi</a> ·
+    <a href="https://github.com/tasahi">github.com/tasahi</a> ·
+    <a href="https://scholar.google.com/citations?user=OUjTa7UAAAAJ">Google Scholar</a><br>
+    Full Right to Work in the UK (no sponsorship required)
+  </div>
+  <nav>
+    <a href="#summary">Summary</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+    <a href="#projects">Projects</a><a href="#education">Education</a><a href="#publications">Publications</a><a href="#teaching">Teaching</a>
+  </nav>
+</header>
+
+<section id="summary">
+  <h2>Summary</h2>
+  <p>PhD-level engineer (Electrical Engineering, MSc Physics) with over 20 years delivering software, modelling and machine-learning systems for industry, healthcare and research. I take technical problems from concept to deployed systems: Python backends and APIs, databases, cloud infrastructure on AWS, and the interfaces people use. My work spans Computer Vision integrated into physical and industrial systems, numerical simulation and optimisation, real-time sensor and telemetry analytics, and, more recently, production LLM agents and retrieval systems. I have led teams of up to 6 engineers and worked closely with clinicians, mining and industrial operators, and academic R&amp;D partners.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li><b>Software engineering:</b> Python (advanced, asyncio), FastAPI, RESTful APIs, microservices, event-driven architecture, C/C++, C#, TypeScript/JavaScript, React, Node.js, Visual Basic.</li>
+    <li><b>Cloud, data &amp; MLOps:</b> AWS (ECS, EC2, Lambda, S3, SageMaker, Bedrock), Linux (AWS EC2), GCP (Vertex AI, BigQuery), Docker, CI/CD, Git, PostgreSQL (pgvector), MongoDB, SQL, MLflow, Apache Airflow.</li>
+    <li><b>Modelling, simulation &amp; optimisation:</b> numerical PDEs (wave propagation, heat equation), discrete-event simulation (OMNeT++), mathematical optimisation, Bayesian statistics (PyMC), time-series forecasting, high-performance computing.</li>
+    <li><b>Computer Vision &amp; ML:</b> PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, YOLO, Faster R-CNN, U-Net, 2D/3D segmentation, medical imaging (DICOM, MRI/CT), thermal and video analytics, image-acquisition hardware.</li>
+    <li><b>AI &amp; agentic systems:</b> LLMs (Claude, GPT-class), Retrieval-Augmented Generation (RAG), LangChain, LangGraph, CrewAI, knowledge graphs (NetworkX), spaCy, OpenAI Whisper, LLM evaluation and guardrails.</li>
+    <li><b>Geospatial &amp; sensing:</b> GIS, Sentinel-1 SAR and Sentinel-2 optical imagery, spatial interpolation, geotechnical telemetry, ECG biosensor streams, signal processing.</li>
+    <li><b>Leadership:</b> technical architecture, R&amp;D strategy, product delivery, cross-functional team leadership, stakeholder management, Agile/Scrum, mentoring and university teaching.</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Professional Experience</h2>
+
+  <div class="role"><div class="role-head"><strong>Lead Data Scientist</strong><span class="dates">01/2025 – Present</span></div>
+    <div class="org">Global Commerce · Liverpool, UK (Remote)</div>
+    <p>Lead the AI and data science area for conversational AI solutions (chatbots, agents and NLP models) for clients in automotive, telecommunications and construction, from architecture and proposal through to production.</p>
+    <div class="stack"><b>Stack:</b> Python (asyncio), FastAPI, AWS (SageMaker, Bedrock, S3, EC2), LangChain, LangGraph, CrewAI, OpenAI Whisper, Claude and GPT-class LLMs, PostgreSQL/pgvector, spaCy, NetworkX.</div></div>
+
+  <div class="role"><div class="role-head"><strong>Architect &amp; Full-Stack Engineer (Consultant)</strong><span class="dates">01/2026 – 08/2026</span></div>
+    <div class="org">WELL-Q · Liverpool, UK (Remote)</div>
+    <p>Led the productisation of a clinical data platform (real-time signals, wearable sensors), connecting data structures, analytics and ML outputs to responsive practitioner dashboards.</p>
+    <div class="stack"><b>Stack:</b> React, TypeScript, Tailwind CSS, Python, FastAPI, PostgreSQL, MongoDB, AWS (ECS, S3, Lambda), Docker, CI/CD, Git.</div></div>
+
+  <div class="role"><div class="role-head"><strong>Senior Data Scientist</strong><span class="dates">03/2024 – 05/2025</span></div>
+    <div class="org">Arturo López Pérez Foundation · Santiago, Chile</div>
+    <p>Led research and development of Computer Vision and deep-learning algorithms for medical oncology, focused on early pathology detection.</p>
+    <div class="stack"><b>Stack:</b> PyTorch, OpenCV, YOLO, U-Net, Faster R-CNN, DICOM, MLflow, Python.</div></div>
+
+  <div class="role"><div class="role-head"><strong>Data Science Advisor, Developer &amp; Manager</strong><span class="dates">03/2023 – 02/2024</span></div>
+    <div class="org">Gesecology · Santiago, Chile</div>
+    <p>Headed the data analytics and ML division, setting data strategy and leading teams delivering predictive systems for heavy-industry operations.</p>
+    <div class="stack"><b>Stack:</b> Python, Bayesian statistics, time-series forecasting, Matplotlib.</div></div>
+
+  <div class="role"><div class="role-head"><strong>Data Science Researcher &amp; University Lecturer</strong><span class="dates">07/2021 – 01/2023</span></div>
+    <div class="org">Data Science Institute, Universidad del Desarrollo · Santiago, Chile</div>
+    <p>Delivered applied R&amp;D projects for automotive, energy and mining organisations while teaching data science, machine learning and Computer Vision.</p>
+    <div class="stack"><b>Stack:</b> PyTorch, Keras, scikit-learn, PyMC, Python.</div></div>
+
+  <div class="role"><div class="role-head"><strong>Lead Data Scientist</strong><span class="dates">02/2019 – 05/2021</span></div>
+    <div class="org">Solunova · Santiago, Chile</div>
+    <p>Headed the data science division, delivering real-time signal-processing and predictive monitoring systems.</p>
+    <div class="stack"><b>Stack:</b> Python, deep learning, Docker, real-time signal processing, ECG biosensors.</div></div>
+
+  <div class="role"><div class="role-head"><strong>Innovation Manager</strong><span class="dates">09/2017 – 01/2019</span></div>
+    <div class="org">Sitrans by Ultramar · Santiago, Chile</div>
+    <p>Led innovation across large-scale logistics operations, turning process inefficiencies into technology-enabled improvements.</p>
+    <div class="stack"><b>Stack:</b> Python, Visual Basic, BI dashboards, ERP integration, mathematical optimisation.</div></div>
+
+  <div class="role"><div class="role-head"><strong>Research &amp; Development Engineer</strong><span class="dates">01/2015 – 08/2017</span></div>
+    <div class="org">Las Condes Clinic · Santiago, Chile</div>
+    <p>Led R&amp;D in 3D medical image processing and diagnostic data mining with clinical teams, bringing segmentation and spatial modelling into surgical workflows.</p>
+    <div class="stack"><b>Stack:</b> Python, deep learning, C#, Unity VR/AR, MRI/CT segmentation, spatial biomodelling.</div></div>
+
+  <div class="role"><div class="role-head"><strong>Research Engineer / Scientist</strong><span class="dates">03/2008 – 12/2014</span></div>
+    <div class="org">Center for Mathematical Modeling (CMM), University of Chile · Santiago, Chile</div>
+    <p>Selected, implemented and coordinated mathematical algorithms and software across astronomical, biological, medical, satellite, agricultural and industrial modelling projects.</p>
+    <div class="stack"><b>Stack:</b> Python, C++, C#, high-performance computing, numerical PDEs, wave-propagation algorithms.</div></div>
+
+  <div class="role"><div class="role-head"><strong>Research &amp; Support Engineer</strong><span class="dates">03/2004 – 12/2007</span></div>
+    <div class="org">Doctor Asenjo Neurosurgery Institute · Santiago, Chile</div>
+    <p>Administered the image-database systems and developed algorithms for radiological research and clinical image processing.</p>
+    <div class="stack"><b>Stack:</b> C++, DICOM, SQL databases, image-processing libraries, low-level systems programming.</div></div>
+</section>
+
+<section id="projects">
+  <h2>Projects &amp; Consulting</h2>
+
+  <div class="project"><h3>Analytics of Conversational Systems<span class="dates">2026</span></h3>
+    <div class="team">Led a team of 2, hands-on development</div>
+    <p>Multi-tenant FastAPI/Python evaluation microservice with automated ingestion, PII masking and 14 conversation and longitudinal metrics (sentiment trajectory, urgency density, bot friction, injection and toxicity guardrails). LLM rule-compliance audits run unattended daily on AWS Bedrock Batch, creating a compliance audit trail and user-profile vectors for churn and routing models.</p></div>
+
+  <div class="project"><h3>Conversational Sales Funnel Checkpoints<span class="dates">2026</span></h3>
+    <p>Three-stage pipeline mapping colloquial sales dialogue to funnel concepts, extracting telco entities and relations, and evaluating declarative checkpoints with selective AWS Bedrock guardrails. A fitness score tracks progression and flags skipped milestones; unclassified turns are kept for clustering and drift discovery.</p></div>
+
+  <div class="project"><h3>Information Retrieval and Agent Systems<span class="dates">2025 – 2026</span></h3>
+    <div class="team">Led a team of 2, hands-on development</div>
+    <p>Production RAG and LLM-agent framework replacing rigid flow-based chatbots: pgvector search, LangChain retrieval, CrewAI tool calling, spaCy entity extraction, BM25 lexical matching and a labelled property graph in NetworkX, improving context handling and coverage of non-happy-path conversations.</p></div>
+
+  <div class="project"><h3>Clinical Data Platform &amp; Interactive Dashboards, WELL-Q<span class="dates">2026</span></h3>
+    <p>FastAPI services over MongoDB, integrating real-time signals from wearable sensors, feeding React/TypeScript dashboards that give practitioners real-time access to diagnostic analytics and ML outputs.</p></div>
+
+  <div class="project"><h3>Lesion Detection in Melanoma and Mammography Images<span class="dates">2024 – 2025</span></h3>
+    <div class="team">Individual contributor</div>
+    <p>Deep-learning detection for early skin and breast cancer screening on non-standardised clinical imagery: fine-tuned YOLO and CNN models with augmentation, class balancing and MLflow tracking.</p></div>
+
+  <div class="project"><h3>Voice Transcription for Call-Centre Analytics<span class="dates">2024</span></h3>
+    <div class="team">Individual contributor</div>
+    <p>Speech-to-text pipeline for noisy, high-volume service calls: custom audio pre-processing and Whisper fine-tuning on domain recordings, reducing word error rate for downstream indexing and sentiment analysis.</p></div>
+
+  <div class="project"><h3>Time-Series Alerts for Open-Pit Mine Instruments<span class="dates">2023 – 2024</span></h3>
+    <div class="team">Individual contributor</div>
+    <p>Real-time anomaly detection and early-warning system on geotechnical instrument telemetry, combining statistical time-series models and ML to flag slope instability.</p></div>
+
+  <div class="project"><h3>Fuel-Demand Forecasting, Copec<span class="dates">2021 – 2022</span></h3>
+    <div class="team">Academic–industrial project with Universidad del Desarrollo</div>
+    <p>Bayesian time-series engine forecasting demand across the service-station network to improve replenishment, reduce stockouts and optimise allocation.</p></div>
+
+  <div class="project"><h3>Customer Lifetime Value, Derco by Inchcape<span class="dates">2021 – 2022</span></h3>
+    <div class="team">With Universidad del Desarrollo</div>
+    <p>Hierarchical Bayesian models on transactions, service records and demographics for segmentation and post-sale retention.</p></div>
+
+  <div class="project"><h3>Fugitive Gas Detection in Copper Foundries, PSINet<span class="dates">2021</span></h3>
+    <div class="team">Individual contributor</div>
+    <p>Thermal-camera feeds integrated with TensorFlow detectors and Airflow pipelines for real-time SO2 leak detection, compliance logging and worker safety.</p></div>
+
+  <div class="project"><h3>Road Analytics, PSINet<span class="dates">2021</span></h3>
+    <div class="team">Individual contributor</div>
+    <p>Deep learning on video streams to classify road signs, barriers and surface distress, replacing manual surveys and creating a road asset database.</p></div>
+
+  <div class="project"><h3>Mining Truck Cycle-Time Measurement Through Video, Corfo<span class="dates">2020</span></h3>
+    <div class="team">Individual contributor</div>
+    <p>DNN object detectors on haul-truck video with custom decision logic, replacing manual cycle logging and identifying haulage bottlenecks.</p></div>
+
+  <div class="project"><h3>ECGO Real-Time ECG Telemonitoring<span class="dates">2019 – 2021</span></h3>
+    <div class="team">Led a team of 6 engineers</div>
+    <p>Remote cardiac monitoring for rehabilitation patients: deep CNN classification of continuous ECG streams for real-time anomaly detection.</p></div>
+
+  <div class="project"><h3>Copernicus Satellite Image Repository for Chile<span class="dates">2019</span></h3>
+    <div class="team">Led a team of 2 developers</div>
+    <p>National repository for ESA Earth-observation data: Python storage, automated ingestion and web publishing services with spatial indexing.</p></div>
+
+  <div class="project"><h3>Greenhouse Gas Monitoring Information System<span class="dates">2019</span></h3>
+    <div class="team">Led a team of 2 developers</div>
+    <p>Spatial interpolation and processing models in Python over satellite sensor data for continuous atmospheric gas observation.</p></div>
+
+  <div class="project"><h3>Remote Mining Tailings Monitoring System<span class="dates">2019</span></h3>
+    <div class="team">Technical lead, team of 2 developers</div>
+    <p>Automated processing of Sentinel-1 SAR and Sentinel-2 optical imagery to monitor tailings-dam surface change and structural risk.</p></div>
+
+  <div class="project"><h3>Logistics &amp; Capacity Optimisation, Sitrans<span class="dates">2018</span></h3>
+    <p>Trip-assignment and 3D bin-packing optimisation in Python and Visual Basic with BI dashboards, increasing fleet payload capacity.</p></div>
+
+  <div class="project"><h3>VR Biomodelling for Complex Spinal Surgery<span class="dates">2015 – 2017</span></h3>
+    <div class="team">Led a team of 3 engineers</div>
+    <p>MRI/CT segmentation in Python and VR/AR visualisation in C#/Unity, producing patient-specific 3D models for pre-operative planning.</p></div>
+
+  <div class="project"><h3>Computer-Aided Diagnosis for Rare Diseases<span class="dates">2015 – 2016</span></h3>
+    <div class="team">Led a team of 2 data scientists</div>
+    <p>Classification and clustering over consolidated multi-source clinical databases to surface rare-disease markers.</p></div>
+
+  <div class="project"><h3>GeoAlert: GIS Landslide Prediction<span class="dates">2014 – 2015</span></h3>
+    <div class="team">Team of 5 engineers</div>
+    <p>GIS predictive alert system for open-pit slopes combining numerical models and ML on slope-stability telemetry.</p></div>
+
+  <div class="project"><h3>Suicide-Risk Predictive Analytics<span class="dates">2014</span></h3>
+    <div class="team">Team of 3 researchers</div>
+    <p>Feature selection over clinical databases to isolate behavioural risk predictors supporting clinical decision-making.</p></div>
+
+  <div class="project"><h3>Automated Salmon Ectoparasite Counter<span class="dates">2013 – 2017</span></h3>
+    <div class="team">Led a team of 2</div>
+    <p>Prototype for live-fish inspection: custom image-acquisition hardware with OpenCV and scikit-learn detection, replacing manual sea-lice counts.</p></div>
+
+  <div class="project"><h3>Fast Computational Schemes for High-Throughput Microscopy<span class="dates">2012 – 2015</span></h3>
+    <div class="team">Co-investigator with 3 scientists</div>
+    <p>Numerical segmentation and tracking algorithms in Python for automated morphological analysis of cells over time.</p></div>
+
+  <div class="project"><h3>Underground Mine Seismic Wave Simulation, Codelco<span class="dates">2012 – 2013</span></h3>
+    <div class="team">Team of 3 developers</div>
+    <p>Simulation software solving elastic wave-propagation PDEs in Python to model rock-mass movement and seismic hazard.</p></div>
+
+  <div class="project"><h3>Yield Forecasting from Satellite Imagery<span class="dates">2012 – 2013</span></h3>
+    <div class="team">Led a team of 3 developers</div>
+    <p>Nonlinear regression, bootstrap and compressed sensing on multispectral imagery to forecast horticultural yields.</p></div>
+
+  <div class="project"><h3>Camouflage &amp; Texture Assessment<span class="dates">2011 – 2012</span></h3>
+    <div class="team">Technical lead, team of 3 developers</div>
+    <p>Non-local variational texture segmentation in Python to quantify camouflage effectiveness across terrains.</p></div>
+
+  <div class="project"><h3>Neurosurgical Neuronavigation &amp; Biomechanical Modelling<span class="dates">2009 – 2011</span></h3>
+    <div class="team">Team of 2 developers</div>
+    <p>MRI segmentation and soft-tissue biomechanical models integrated into the open-source C++ IGSTK navigation platform.</p></div>
+
+  <div class="project"><h3>MODUrban Thermal Simulator for Subway Networks<span class="dates">2008</span></h3>
+    <div class="team">Individual contributor</div>
+    <p>Physics-based thermal-balance simulation in C# solving heat equations across tunnels and stations to support ventilation design.</p></div>
+
+  <div class="project"><h3>InteGRail Railway Telecommunication Simulator<span class="dates">2006 – 2007</span></h3>
+    <div class="team">Individual contributor</div>
+    <p>Discrete-event simulation in OMNeT++ of European railway communication networks, supporting EU FP6 work on throughput and reliability.</p></div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><b>PhD in Electrical Engineering</b>, Yokohama National University, Japan. Computational algorithms, efficient signal and image reconstruction, optimisation.</li>
+    <li><b>MSc in Physics</b>, Pontifical Catholic University of Chile. First-principles modelling, numerical analysis, experimental physics.</li>
+    <li><b>BSc &amp; Professional Degree in Electrical Engineering</b>, Pontifical Catholic University of Chile.</li>
+  </ul>
+</section>
+
+<section id="publications">
+  <h2>Selected Publications</h2>
+  <ul class="pubs">
+    <li>Galvez M, Montoya CE, Fuentes J, Rojas GM, Asahi T, et al. Error Measurement Between Anatomical Porcine Spine, CT Images, and 3D Printing. <i>Academic Radiology</i>, 2019. doi:10.1016/j.acra.2019.06.016</li>
+    <li>Galvez M, Asahi T, Baar A, et al. Use of Three-dimensional Printing in Orthopedic Surgical Planning. <i>JAAOS Global Research &amp; Reviews</i>, 2018.</li>
+    <li>Galvez M, Cordovez J, Okuma C, Montoya C, Asahi T. Diagnóstico diferencial de hernia discal. <i>Revista Chilena de Radiología</i>, 2017.</li>
+    <li>Ortega X, Araneda D, Asahi T, et al. Variabilidad en la determinación de fracción grasa muscular en resonancia magnética utilizando la técnica de Dixon. <i>Revista Chilena de Radiología</i>, 2016.</li>
+    <li>Barros J, Morales S, Echávarri O, García A, Ortega J, Asahi T, et al. Suicide detection in Chile: proposing a predictive model for suicide risk in a clinical sample of patients with mood disorders. <i>Revista Brasileira de Psiquiatria</i>, 2016.</li>
+    <li>Galvez M, Rojas G, Fuentes J, Asahi T, Montoya C, et al. Augmented Reality Mobile Applications to Interactively Show Complex Spine Pathologies. <i>Global Spine Journal</i>, 2016.</li>
+    <li>Cisternas J, Asahi T, Gálvez M, Rojas G, Bravo E. Desarrollo y puesta en marcha de software de tractografía. <i>Revista Chilena de Radiología</i>, 2008.</li>
+    <li>Rojas GM, Cordovez JA, Gálvez M, Cisternas JE, Asahi T, Bravo EF. Combined use of functional magnetic resonance imaging and tractography to select specific white matter fibers. <i>Revista Chilena de Radiología</i>, 2008.</li>
+    <li>Gálvez M, Farías M, Asahi T, et al. Cálculo de tiempos T1 y T2 in vitro. <i>Revista Chilena de Radiología</i>, 2005.</li>
+    <li>Asahi T, Ichige K, Ishii R. A Computationally Efficient Algorithm for Exponential B-Splines based on Difference/IIR Filter Approach. <i>IEICE Trans. Fundamentals</i>, E85-A(6), 2002.</li>
+    <li>Asahi T, Ichige K, Ishii R. An Efficient Algorithm for Decomposition and Reconstruction of Images by Box Splines. <i>IEICE Trans. Fundamentals</i>, E84-A(8), 2001.</li>
+    <li>Asahi T, Ichige K, Ishii R. A New Formulation for Discrete Box Splines Reducing Computational Cost and Its Evaluation. <i>IEICE Trans. Fundamentals</i>, E84-A(3), 2001.</li>
+  </ul>
+</section>
+
+<section id="teaching">
+  <h2>Teaching</h2>
+  <div class="two">
+    <div>Computer Vision, Master in Data Science (2022–2025)</div>
+    <div>Postgraduate Specialisation in Data Science, CORFO (2022–2025)</div>
+    <div>Advanced Machine Learning (2023)</div>
+    <div>Introduction to Computer Engineering (2023)</div>
+    <div>Machine Learning (2022)</div>
+    <div>Deep Learning (2021)</div>
+    <div>Programming with Python (2021, 2024, 2025)</div>
+    <div>All at Universidad del Desarrollo, Chile</div>
+  </div>
+</section>
+
+<section>
+  <h2>Languages</h2>
+  <p>Spanish (native) · English (business/bilingual) · Japanese (intermediate)</p>
+</section>
+
+<footer>Last updated November 2026</footer>
+</main>
+</body>
+</html>
